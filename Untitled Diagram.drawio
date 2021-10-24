@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-10-24T12:36:43.183Z" agent="5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.1.2 Safari/605.1.15" etag="4noWBobtOcZi4YPwx-aV" version="15.5.9" type="github">
+<mxfile host="app.diagrams.net" modified="2021-10-24T12:37:31.521Z" agent="5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.1.2 Safari/605.1.15" etag="nNBjQRKmE9TZAYbdsEy4" version="15.5.9" type="github">
   <diagram id="uKatzStPybd7p6dtbr8B" name="Page-1">
     <mxGraphModel dx="1261" dy="719" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
       <root>
@@ -17,7 +17,7 @@
           <mxGeometry x="470" y="30" width="230" height="20" as="geometry" />
         </mxCell>
         <mxCell id="ARdzz1YE6T8RBa4mAH9I-3" value="&lt;font style=&quot;font-size: 17px&quot;&gt;&lt;b&gt;Visualization&lt;/b&gt;&lt;/font&gt;" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="945" y="30" width="120" height="20" as="geometry" />
+          <mxGeometry x="1040" y="30" width="120" height="20" as="geometry" />
         </mxCell>
         <mxCell id="ARdzz1YE6T8RBa4mAH9I-4" value="&lt;font style=&quot;font-size: 12px&quot;&gt;Games database&lt;br&gt;(pgn)&lt;br&gt;&lt;/font&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;fontSize=17;" vertex="1" parent="1">
           <mxGeometry x="20" y="100" width="80" height="80" as="geometry" />
