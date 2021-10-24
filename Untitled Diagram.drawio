@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-10-24T12:03:05.861Z" agent="5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.1.2 Safari/605.1.15" etag="VsNGLUP5fu1wSvNn3Tlz" version="15.5.9" type="github">
+<mxfile host="app.diagrams.net" modified="2021-10-24T12:10:00.249Z" agent="5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.1.2 Safari/605.1.15" etag="qXn2yFw00Sq_TvkzKytS" version="15.5.9" type="github">
   <diagram id="uKatzStPybd7p6dtbr8B" name="Page-1">
     <mxGraphModel dx="1261" dy="719" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
       <root>
@@ -43,14 +43,48 @@
         <mxCell id="ARdzz1YE6T8RBa4mAH9I-9" value="&lt;font style=&quot;font-size: 12px&quot;&gt;ECO code with opening classification&lt;br&gt;&lt;/font&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;fontSize=17;" vertex="1" parent="1">
           <mxGeometry x="210" y="260" width="80" height="80" as="geometry" />
         </mxCell>
+        <mxCell id="ARdzz1YE6T8RBa4mAH9I-25" value="1.1 load ratings / country" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;" edge="1" parent="1" source="ARdzz1YE6T8RBa4mAH9I-10" target="ARdzz1YE6T8RBa4mAH9I-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="ARdzz1YE6T8RBa4mAH9I-10" value="&lt;font style=&quot;font-size: 12px&quot;&gt;Player rating and country (older)&lt;br&gt;&lt;/font&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;fontSize=17;" vertex="1" parent="1">
           <mxGeometry x="210" y="480" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ARdzz1YE6T8RBa4mAH9I-24" value="1. load players" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=12;" edge="1" parent="1" source="ARdzz1YE6T8RBa4mAH9I-11" target="ARdzz1YE6T8RBa4mAH9I-14">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="ARdzz1YE6T8RBa4mAH9I-11" value="&lt;font style=&quot;font-size: 12px&quot;&gt;Player database&lt;br&gt;&lt;/font&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;fontSize=17;" vertex="1" parent="1">
           <mxGeometry x="210" y="370" width="80" height="80" as="geometry" />
         </mxCell>
+        <mxCell id="ARdzz1YE6T8RBa4mAH9I-26" value="1.1. load ratings / country" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=12;" edge="1" parent="1" source="ARdzz1YE6T8RBa4mAH9I-12" target="ARdzz1YE6T8RBa4mAH9I-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="ARdzz1YE6T8RBa4mAH9I-12" value="&lt;font style=&quot;font-size: 12px&quot;&gt;Player rating and country (later)&lt;br&gt;&lt;/font&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;fontSize=17;" vertex="1" parent="1">
           <mxGeometry x="210" y="590" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ARdzz1YE6T8RBa4mAH9I-20" value="1.2.merging&lt;br&gt;with&lt;br&gt;ratings" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;" edge="1" parent="1" source="ARdzz1YE6T8RBa4mAH9I-14" target="ARdzz1YE6T8RBa4mAH9I-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ARdzz1YE6T8RBa4mAH9I-14" value="&lt;font style=&quot;font-size: 12px&quot;&gt;players_all&lt;br&gt;&lt;/font&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;fontSize=17;" vertex="1" parent="1">
+          <mxGeometry x="430" y="370" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ARdzz1YE6T8RBa4mAH9I-22" value="1.2. merging with players" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="ARdzz1YE6T8RBa4mAH9I-17" target="ARdzz1YE6T8RBa4mAH9I-19">
+          <mxGeometry x="0.2632" y="-10" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ARdzz1YE6T8RBa4mAH9I-17" value="&lt;font style=&quot;font-size: 12px&quot;&gt;grouped_&lt;br&gt;earlier&lt;br&gt;&lt;/font&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;fontSize=17;" vertex="1" parent="1">
+          <mxGeometry x="430" y="480" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ARdzz1YE6T8RBa4mAH9I-23" value="1.2. merging with players" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;" edge="1" parent="1" source="ARdzz1YE6T8RBa4mAH9I-18">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="630" y="460" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ARdzz1YE6T8RBa4mAH9I-18" value="&lt;font style=&quot;font-size: 12px&quot;&gt;grouped_&lt;br&gt;later&lt;br&gt;&lt;/font&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;fontSize=17;" vertex="1" parent="1">
+          <mxGeometry x="430" y="590" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ARdzz1YE6T8RBa4mAH9I-19" value="&lt;font style=&quot;font-size: 12px&quot;&gt;players_all&lt;br&gt;&lt;/font&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;fontSize=17;" vertex="1" parent="1">
+          <mxGeometry x="590" y="370" width="80" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
