@@ -13,6 +13,10 @@ class pgn2csv:
     Main class for simple pgn to csv converter
     The class is intended to generate only tabular header data with the most important and rudimentary information
     For anything more sophisticated pgn2data library is to be used
+
+    usage:
+        converter = pgn2csv(source_file, target_file)
+        converter.convertPgn()
     """
 
     def __init__(self, source, target=None, test_mode = False):
@@ -97,7 +101,7 @@ class pgn2csv:
         maintains a sequential reader and a writer through a queue
         rather than reading and keeping everything in memory
         expected to work with 3GB files
-        :return: bool whether the operation was successful or not
+        :return: None or exception if there is an error
         """
         log.info('Convert pgn 2 csv started at {}, source file: {}, target file: {}'.format(datetime.datetime.now(),
                                                                                             self._source, self._target))
